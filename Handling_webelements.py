@@ -1,6 +1,8 @@
 from selenium import webdriver
 from time import sleep
 
+from selenium.webdriver.common.by import By
+
 driver = webdriver.Chrome()
 driver.get('https://gmail.com')
 driver.maximize_window()
